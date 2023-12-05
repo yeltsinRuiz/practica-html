@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+}
+a:link, a:visited{
+    background-color: burlywood;
+    color: aliceblue;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+}a:hover, a:active{
+    background-color: aqua;
+}

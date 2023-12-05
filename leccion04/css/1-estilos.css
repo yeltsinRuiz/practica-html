@@ -1,0 +1,22 @@
+body{
+    background-color: #8ecae6;
+}
+h1{
+    color: hsl(263, 82%, 67%);
+}
+a:link{
+    color: rgb(165, 226, 43);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(239, 36, 50);
+}
+/*cuando nos ponemos encima del link*/
+a:hover{
+    color:#0f0900;
+    text-decoration: underline;
+}
+a:active {
+    color: #e2dee8;
+    text-decoration: underline;
+}
