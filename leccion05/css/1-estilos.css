@@ -1,0 +1,17 @@
+.table1,.table1 th, .table1 td{
+    border: 1px solid red;
+    border-spacing: 5px;
+    padding: 5px;
+}
+table{
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+.table2, .table2 th , .table2 td{
+    border: 1px solid red;
+    border-collapse: collapse;
+    padding: 5px;
+}
