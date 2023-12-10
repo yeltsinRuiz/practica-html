@@ -1,0 +1,14 @@
+ol{
+    list-style: none;
+}
+ol li{
+    counter-increment: contador;
+}
+ol li::before{
+    content: 'Programa ' counter(contador) ' : ';
+    color: blueviolet;
+}
+ol li::after{
+    content: '.';
+    color: red;
+}
